@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class minNumberSort {
     static Scanner input = new Scanner(System.in); // Объявляем Scanner
     public static void main(String[] args) {
-
         int[] arraySort = sort(insertedArrayElements(arrayVolume()));
         System.out.println(Arrays.toString(arraySort));
         System.out.println("Минимальный элемент массива: " + arraySort[0]);
